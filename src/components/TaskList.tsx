@@ -35,8 +35,8 @@ export function TaskList() {
       setTasks([...tasks, task]);
       setNewTaskTitle('');
     } else {
-      return;
       alert("O título da tarefa não pode ser vazio!")
+      return;
     }
   }
 
